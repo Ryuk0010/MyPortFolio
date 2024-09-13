@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { WobbleCard } from "@/components/ui/wobble-card";
-import Photo from '../../image/Mousam.jpg';
+import Photo from '@/image/Mousam.jpg';
 
 export function WobbleCardDemo() {
   return (

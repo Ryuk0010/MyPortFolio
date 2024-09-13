@@ -3,11 +3,11 @@ import Image from "next/image";
 import React, { useEffect, useId, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useOutsideClick } from "@/hooks/use-outside-click";
-import Project1 from '../../image/Project1.png';
-import Project2 from '../../image/Project2.png';
-import Project3 from '../../image/Project3.png';
-import Project5 from '../../image/Project5.png';
-import GithubLogo from '../../image/github.jpeg';
+import Project1 from '@/image/Project1.png';
+import Project2 from '@/image/Project2.png';
+import Project3 from '@/image/Project3.png';
+import Project5 from '@/image/Project5.png';
+import GithubLogo from '/image/github.jpeg';
 
 
 export function ExpandableCardDemo() {

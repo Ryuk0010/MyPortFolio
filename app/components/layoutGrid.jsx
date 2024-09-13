@@ -3,10 +3,10 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
-import Photo1 from '../../image/cert0.jpg';
-import Photo2 from '../../image/cert1.png';
-import Photo3 from '../../image/cert2.png';
-import Photo4 from '../../image/cert13.png';
+import Photo1 from '@/image/cert0.jpg';
+import Photo2 from '@/image/cert1.png';
+import Photo3 from '@/image/cert2.png';
+import Photo4 from '@/image/cert13.png';
 
 // CoolButton component
 const CoolButton = ({ text, link }) => {

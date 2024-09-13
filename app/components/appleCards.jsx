@@ -2,9 +2,9 @@
 import Image from "next/image";
 import React from "react";
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
-import card1 from '../../image/card1.jpg';
-import card2 from '../../image/card2.jpg';
-import card3 from '../../image/card3.jpg';
+import card1 from '@/image/card1.jpg';
+import card2 from '@/image/card2.jpg';
+import card3 from '@/image/card3.jpg';
 import Link from "next/link";
 
 export function AppleCardsCarouselDemo() {

@@ -2,10 +2,10 @@
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "@/components/ui/navbar-menu";
 import { cn } from "@/lib/utils";
-import Project1 from '../../image/Project1.png';
-import Project2 from '../../image/Project2.png';
-import Project3 from '../../image/Project3.png';
-import Project4 from '../../image/Project4.png';
+import Project1 from '@/image/Project1.png';
+import Project2 from '@/image/Project2.png';
+import Project3 from '@/image/Project3.png';
+import Project4 from '@/image/Project4.png';
 
 export function NavbarDemo() {
   return (
