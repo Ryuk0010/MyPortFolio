@@ -2,7 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import { motion, stagger, useAnimate, useInView } from "framer-motion";
-import { useEffect } from "react";
+import { useEffect, useCallback } from "react";
 
 export const TypewriterEffect = ({
   words,
@@ -17,7 +17,8 @@ export const TypewriterEffect = ({
   const [scope, animate] = useAnimate();
   const isInView = useInView(scope, { once: true });
 
-  useEffect(() => {
+  // Memoize the animation to prevent it from being recreated on each render
+  const handleAnimate = useCallback(() => {
     if (isInView) {
       animate("span", {
         opacity: 1,
@@ -28,7 +29,12 @@ export const TypewriterEffect = ({
         ease: "easeInOut",
       });
     }
-  }, [isInView]);
+  }, [isInView, animate]);
+
+  // Run animation when in view
+  useEffect(() => {
+    handleAnimate();
+  }, [handleAnimate]);
 
   const renderWords = () => (
     <motion.div ref={scope} className="inline">
@@ -38,7 +44,8 @@ export const TypewriterEffect = ({
             <motion.span
               initial={{ opacity: 0 }}
               key={`char-${index}`}
-              className={cn(`dark:text-white text-black`, word.className)}>
+              className={cn(`dark:text-white text-black`, word.className)}
+            >
               {char}
             </motion.span>
           ))}
@@ -65,7 +72,6 @@ export const TypewriterEffect = ({
   );
 };
 
-
 export const TypewriterEffectSmooth = ({
   words,
   className,
@@ -83,7 +89,8 @@ export const TypewriterEffectSmooth = ({
           {word.text.map((char, index) => (
             <span
               key={`char-${index}`}
-              className={cn(`dark:text-white text-black`, word.className)}>
+              className={cn(`dark:text-white text-black`, word.className)}
+            >
               {char}
             </span>
           ))}
