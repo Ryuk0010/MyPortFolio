@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import Project1 from '@/image/Project1.png';
 import Project2 from '@/image/Project2.png';
 import Project3 from '@/image/Project3.png';
-import Project4 from '@/image/Project4.jpg';
+import Project from '@/image/card1.jpg'
 
 export function NavbarDemo() {
   return (
@@ -58,8 +58,8 @@ function Navbar({ className }) {
             <ProductItem
               title="View More"
               href="/projects"
-              target="_self"
-              src={Project4} 
+              target="_blank"
+              src={Project} 
               description="Visit the Projects Page."
             />
           </div>
