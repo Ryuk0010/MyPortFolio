@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import Project1 from '@/image/Project1.png';
 import Project2 from '@/image/Project2.png';
 import Project3 from '@/image/Project3.png';
-import Project from '@/image/card1.jpg'
+import Project from '@/image/pro.jpg'
 
 export function NavbarDemo() {
   return (
