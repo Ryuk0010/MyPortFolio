@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
-import Photo from '../../image/collegeLogo.png'
+import Photo from '@/image/collegeLogo.png'
 
 export function ThreeDCardDemo() {
   return (
@@ -28,7 +28,7 @@ export function ThreeDCardDemo() {
             as={Link}
             href="https://iem.edu.in/"
             target="__blank"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold">
+            className="px-4 py-2 rounded-xl bg-black text-white text-xs font-bold">
             Visit
           </CardItem>
         </div>

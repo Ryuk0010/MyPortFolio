@@ -8,18 +8,23 @@ export default function Connect() {
   return (<div className="bg-slate-950 w-screen h-screen overflow-x-hidden overflow-y-hidden ">
         <div>
             <NavbarDemo/>
-            <div className="mt-40">
+            <div className="flex justify-between -mt-24 w-screen h-20 mb-14">
+                  <div className=" ml-96">
+                    <FloatingDockDemo/>
+                  </div>
+                        
+                    <div className="mr-96">
+                      <CodingProfiles/>
+                    </div>
+                    
+            </div>
+            <div className="md:mt-56">
                 <TextHoverEffectDemo/>
             </div>
-            <div className="flex -mt-72 mx-60">
-                    <FloatingDockDemo/>
-                    <CodingProfiles/>
-            </div>
             
+            Made By Mousam
         </div>
-        <div className="text-slate-400 ml-40 font-bold -mt-44">
-                Made By Mousam
-            </div>
+        
     </div>
   );
 }
