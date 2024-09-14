@@ -17,16 +17,20 @@ export default function Education() {
         <FlipWordsDemo />
       </div>
     </div>
-    <div className="flex flex-col items-center w-full h-full md:flex-row md:justify-center md:w-full md:h-auto">
-      <div className="text-3xl md:text-5xl font-bold mb-4 md:mb-0">
-        Degree
-      </div>
+        <div className="ml-96 pl-56 mt-52 flex justify-center md:pl-0 md:mt-20 md:mb-20">
+        <div className="text-5xl font-bold mr-96 -ml-96">
+          Degree
+        </div>
+          
+        </div>
+      <div className="flex flex-col items-center w-full h-full md:flex-row md:justify-center md:w-full md:h-auto">
+
       <div className="w-full max-w-md md:max-w-none">
         <ThreeDCardDemo />
       </div>
     </div>
 
-        <div className="flex justify-center mt-20 mb-20">
+        <div className="ml-96 pl-56 mt-52 flex justify-center md:pl-0 md:mt-20 md:mb-20">
           <div className="text-5xl font-bold mr-96 -ml-96">
             Certificates
           </div>
