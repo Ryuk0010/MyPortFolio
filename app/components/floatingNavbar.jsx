@@ -58,7 +58,6 @@ function Navbar({ className }) {
             <ProductItem
               title="View More"
               href="/projects"
-              target="_blank"
               src={Project} 
               description="Visit the Projects Page."
             />
