@@ -27,7 +27,7 @@ export const MenuItem = ({
     >
       <motion.p
         transition={{ duration: 0.3 }}
-        className="cursor-pointer text-black hover:opacity-[0.9]"
+        className="cursor-pointer text-black hover:opacity-[0.9] "
       >
         {item}
       </motion.p>
@@ -90,7 +90,7 @@ export const ProductItem = ({
         <h4 className="text-xl font-bold mb-1 text-white ">
           {title}
         </h4>
-        <p className="text-neutral-700 text-sm max-w-[10rem] ">
+        <p className="text-neutral-700 text-sm max-w-[15rem] ">
           {description}
         </p>
       </div>

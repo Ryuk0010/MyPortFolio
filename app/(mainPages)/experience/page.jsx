@@ -5,11 +5,11 @@ import { SpotlightPreview } from "@/app/components/spotlightCard";
 
 export default function Education() {
     return (
-        <div className="w-screen h-screen overflow-x-hidden overflow-y-auto bg-slate-950 mix-blend-multiply text-white pt-28">
+        <div className="w-screen h-screen overflow-x-hidden overflow-y-auto bg-slate-950 text-white pt-24">
             <NavbarDemo/>
             {/* <SpotlightPreview/> */}
-            <div className="flex justify-center">
-            <div className="w-1/2 ml-20">
+            <div className="flex flex-col lg:flex-row lg:space-x-8 p-4">
+            <div className="flex-1 mb-4 lg:mb-0">
                 <SpotlightPreview/>
             </div>
             <div className="flex-col mt-16 w-1/2 ml-10 mix">

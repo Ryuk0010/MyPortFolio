@@ -5,7 +5,7 @@ import styled from "styled-components";
 const Card = () => {
   return (
     <StyledWrapper className="text-white dark:text-neutral-200 hover:text-black">
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-1 lg:grid lg:grid-cols-2">
       <div className="container">
         <div className="card">
           <div className="face back">

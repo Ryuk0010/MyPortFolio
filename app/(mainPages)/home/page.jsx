@@ -33,7 +33,7 @@ export default function Homepage() {
         </div>
 
 
-        <div className="text-slate-400 ml-40 font-bold">
+        <div className="text-slate-400 md:ml-40 font-bold">
                 Made By Mousam
             </div>
     </div>
