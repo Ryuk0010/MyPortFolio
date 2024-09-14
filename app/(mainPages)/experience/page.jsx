@@ -5,14 +5,14 @@ import { SpotlightPreview } from "@/app/components/spotlightCard";
 
 export default function Education() {
     return (
-        <div className="w-screen h-screen overflow-x-hidden overflow-y-auto bg-slate-950 text-white pt-28">
+        <div className="w-screen h-screen overflow-x-hidden overflow-y-auto bg-slate-950 mix-blend-multiply text-white pt-28">
             <NavbarDemo/>
             {/* <SpotlightPreview/> */}
             <div className="flex justify-center">
             <div className="w-1/2 ml-20">
                 <SpotlightPreview/>
             </div>
-            <div className="flex-col mt-40 w-1/2 ml-10">
+            <div className="flex-col mt-16 w-1/2 ml-10 mix">
             <div>
                 <p className="text-3xl font-bold text-slate-500 mb-5">
                     Data Structures & Algorithms Instructor
