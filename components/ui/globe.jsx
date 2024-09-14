@@ -117,9 +117,8 @@ export function Globe({ globeConfig, data }) {
     globeRef.current
       .ringsData([])
       .ringColor((e) => (t) => e.color(t))
-      .ringMaxRadius(defaultProps.maxRings)
       .ringPropagationSpeed(RING_PROPAGATION_SPEED)
-      .ringRepeatPeriod((defaultProps.arcTime * defaultProps.arcLength) / defaultProps.rings);
+      .ringRepeatPeriod((defaultProps.arcTime * defaultProps.arcLength));
   }, [globeRef, globeData, data, defaultProps.arcLength, defaultProps.arcTime]);
 
   useEffect(() => {
