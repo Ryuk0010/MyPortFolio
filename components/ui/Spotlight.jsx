@@ -8,7 +8,7 @@ export const Spotlight = ({
   return (
     (<svg
       className={cn(
-        "animate-spotlight pointer-events-none absolute z-[1]  h-[100%] w-[100%] lg:w-[120%] opacity-0",
+        "animate-spotlight pointer-events-none absolute z-[1]  h-[255%] w-[700%] lg:w-[160%] opacity-0",
         className
       )}
       xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +22,7 @@ export const Spotlight = ({
           ry="273.501"
           transform="matrix(-0.822377 -0.568943 -0.568943 0.822377 3631.88 2291.09)"
           fill={fill || "white"}
-          fillOpacity="0.21"></ellipse>
+          fillOpacity="0.61"></ellipse>
       </g>
       <defs>
         <filter

@@ -15,7 +15,7 @@ const CoolButton = ({ text, link }) => {
       <button
         className="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white transition-all duration-300 ease-out rounded-lg shadow-lg group bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-indigo-500 hover:to-blue-500"
       >
-        <span className="absolute w-48 h-48 rounded-full bg-white opacity-10 transition-all duration-300 ease-out group-hover:scale-125 group-hover:opacity-20"></span>
+        <span className="absolute w-48 h-60 rounded-full bg-white opacity-10 transition-all duration-300 ease-out group-hover:scale-125 group-hover:opacity-20"></span>
         <span className="relative z-10">{text}</span>
       </button>
     </a>
@@ -129,9 +129,7 @@ const SkeletonOne = () => {
         and Algorithms, crucial for solving complex computational problems. 
         It delves into topics such as arrays, linked lists, trees, graphs, 
         and various algorithmic paradigms like recursion, dynamic programming, 
-        and greedy algorithms. By mastering these skills, learners develop 
-        efficient problem-solving techniques that are essential in competitive 
-        programming and technical interviews.
+        and greedy algorithms.
       </p>
       <CoolButton text="View Certificate" link="https://d3r0n59fu7ub44.cloudfront.net/certificates/courseCertificate/2024-07-13/course_655b4b7da18dd7f07c4cc402_user_6561fd657c17a01aab7248a5.pdf" />
     </div>

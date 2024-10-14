@@ -14,9 +14,9 @@ export function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl tracking-tight text-transparent font-normal md:text-7xl"
+        className="mt-2 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-5xl font-semibold tracking-tight text-transparent md:text-7xl"
       >
-        Hi There, <br /> I&apos;m Mousam Bachhar
+        Hi There, <br /> I&apos;m Mousam
       </motion.h1>
     </LampContainer>
   );

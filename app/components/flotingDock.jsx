@@ -32,7 +32,7 @@ export function FloatingDockDemo() {
       icon: (
         <FileText  className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://drive.google.com/file/d/1FTSylnRsn1u3_cvNvo0EueSs-y69Xbe4/view?usp=drive_link",
+      href: "https://drive.google.com/file/d/1DblWnnrPGr98DsKvI3GOGnQIZPRGg6rt/view?usp=drive_link",
       target: "_blank"
     },
     {

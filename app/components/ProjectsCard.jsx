@@ -134,7 +134,7 @@ export function ExpandableCardDemo() {
                 height={1920}
                 src={card.photo}
                 alt={card.title}
-                className="h-16 w-24 md:h-52 md:w-96 rounded-lg object-cover object-top" />
+                className="h-44 w-full md:h-52 md:w-96 rounded-lg object-cover object-top" />
             </motion.div>
             <div className="">
               <motion.h3
@@ -194,7 +194,7 @@ export const CloseIcon = () => {
 
 const cards = [
   {
-    description: "Tech-Stack - React, Typescript, Postgrsql, Hono",
+    description: "TechStack - React, Typescript, Postgrsql",
     title: "Print",
     photo: Project2, // Use the imported image
     ctaText: "Link",
@@ -215,7 +215,7 @@ const cards = [
     },
   },
   {
-    description: "Tech-Stack - React, CSS",
+    description: "TechStack - React, CSS",
     title: "E-Shopper",
     photo: Project5,
     ctaText: "Link",
@@ -233,26 +233,24 @@ const cards = [
   },
 
   {
-    description: "Tech-Stack - React, CSS",
-    title: "Speed Infinite",
+    description: "TechStack - HTML, CSS, Js",
+    title: "CPU Scheduling Algorithm Visualizer",
     photo: Project3,
     ctaText: "Link",
-    ctaLink: "https://github.com/Ryuk0010/Car-Rental",
+    ctaLink: "https://csa-three.vercel.app/",
     content: () => {
       return (
-        (<p>Speed Infinite is an elegant and user-friendly car rental frontend designed with React and styled using CSS. 
-          The platform provides a modern and intuitive interface, allowing users to easily explore a diverse range of vehicles. 
-          With a focus on a smooth user experience, the site enables customers to browse through detailed listings of available cars, 
-          complete with images, models, and rental prices.
-          The application features advanced search and filtering options, making it simple for users to find the perfect vehicle based on 
-          their specific needs. The booking process is streamlined, with an easy-to-navigate form and real-time availability updates, ensuring a
-           hassle-free reservation experience. The responsive design guarantees that the interface adapts seamlessly across various devices.
+        (<p>The CPU Scheduling Algorithm Visualizer is an interactive tool designed to simulate various CPU scheduling algorithms like 
+          First Come First Serve (FCFS), Shortest Job First (SJF), and Round Robin (RR). This visualizer provides a graphical interface 
+          to help users understand how different scheduling techniques prioritize tasks in a CPU.
+          The platform is built with HTML, CSS, and JavaScript, offering an intuitive experience for students and professionals to 
+          explore the behavior of different algorithms in real-time. Users can input processes, their arrival times, making it easier to grasp complex concepts.
         </p>)
       );
     },
   },
   {
-    description: "Tech-Stack - Next.js, Postgrsql, Drizzle, TailwindCss",
+    description: "TechStack - Next.js, Postgrsql, Tailwind",
     title: "Handy Wallet",
     photo: Project1,
     ctaText: "Link",

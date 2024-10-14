@@ -6,6 +6,7 @@ const slugs = [
   "dart",
   "java",
   "react",
+  "next",
   "flutter",
   "android",
   "html5",
@@ -38,7 +39,7 @@ const slugs = [
 
 export function IconCloudDemo() {
   return (
-    <div className="relative flex h-full w-full max-w-[50rem] items-center justify-center overflow-hidden rounded-lg bg-slate-950 px-20 pb-20 pt-8 ">
+    <div className="relative flex h-full w-full max-w-[80rem] items-center justify-center overflow-hidden rounded-lg bg-slate-950 px-20 pt-16 ">
       <IconCloud iconSlugs={slugs} />
     </div>
   );

@@ -7,7 +7,7 @@ import Photo from '@/image/Mousam-image.jpg';
 export function WobbleCardDemo() {
   return (
     (<div
-      className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto mt-48">
+      className="grid grid-cols-1 gap-4 max-w-7xl mx-auto md:mt-20">
       <WobbleCard
         containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-800 min-h-[300px] lg:min-h-[200px] flex items-center justify-center">
         <Image

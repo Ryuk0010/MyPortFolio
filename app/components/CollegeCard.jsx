@@ -16,7 +16,7 @@ export function ThreeDCardDemo() {
             src={Photo}
             height="1000"
             width="1000"
-            className="h-80 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+            className="h-28 md:h-52 w-full object-cover rounded-xl group-hover/card:shadow-xl"
             alt="thumbnail" />
         </CardItem>
         <div className="flex justify-between items-center mt-5">
@@ -52,7 +52,7 @@ export function ThreeDCardDemo() {
         <br/>
         <CardItem
           translateZ="50"
-          className="text-l font-bold text-neutral-600 dark:text-white">
+          className="text-l font-bold text-neutral-600">
           CGPA - 9.10 (till current sem)
         </CardItem>
       </CardBody>
