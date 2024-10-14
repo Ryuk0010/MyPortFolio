@@ -15,11 +15,11 @@ export default function Education() {
         <div className="flex-1 mb-2 mx-10 -mt-6">
         <TextRevealCardPreview/>
         <div className="flex-1 mb-4 w-full ">
-            <div className="text-slate-500 font-semibold text-xl md:text-5xl lg:-mt-10">
+            <div className="text-slate-100 font-bold md:font-semibold text-4xl md:text-4xl lg:-mt-10 md:ml-10">
                 My Projects
             </div>
             <br></br>
-            <div className="text-sm md:text-3xl text-slate-300">
+            <div className="text-lg md:text-xl md:mx-20 text-slate-200 text-justify md:text-justify">
             Here, you&apos;ll find a collection of projects I&apos;ve worked on, reflecting my journey as I explore and learn in the world of development. 
             Each project represents my effort to apply what I&apos;ve learned and solve real problems. I&apos;m continuously growing and improving, and I 
             hope you like these works. Thank you for taking a look!
@@ -28,7 +28,7 @@ export default function Education() {
         </div>
         </div>
         
-        <div className="text-slate-300 font-semibold text-2xl pt-14 md:text-5xl md:mt-48 flex justify-center">
+        <div className="text-slate-100 font-bold text-3xl pt-14 md:text-5xl md:mt-48 flex justify-center">
             Projects
         </div >
         <div className="w-full flex justify-center mt-10">

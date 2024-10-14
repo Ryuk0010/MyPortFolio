@@ -15,10 +15,11 @@ const cloudProps = {
   containerProps: {
     style: {
       display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      width: "100%",
+      justifyContent: "left",
+      alignItems: "left",
+      width: "200%", // Adjust as necessary
       paddingTop: 40,
+      overflow: "hidden", // Prevent overflow issues
     },
   },
   options: {
@@ -36,6 +37,7 @@ const cloudProps = {
     minSpeed: 0.02,
   },
 };
+
 
 // Custom icon rendering based on theme
 const renderCustomIcon = (icon, theme) => {
