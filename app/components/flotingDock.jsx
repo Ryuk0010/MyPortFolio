@@ -2,9 +2,7 @@
 import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
-  IconBrandX,
-  IconExchange,
-  IconTerminal2,
+  IconBrandX,  
 } from "@tabler/icons-react";
 
 import { Linkedin,
@@ -38,7 +36,7 @@ export function FloatingDockDemo() {
     {
       title: "Leetcode",
       icon: (
-        <CIcon className="h-full w-full text-neutral-500 dark:text-neutral-300" icon={cibLeetcode} />
+        <CIcon className="h-full w-full text-white" icon={cibLeetcode  } />
       ),
       href: "https://leetcode.com/u/Ryuk01/",
       target: "_blank"
