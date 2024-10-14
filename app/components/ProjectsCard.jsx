@@ -198,7 +198,7 @@ const cards = [
     title: "Print",
     photo: Project2, // Use the imported image
     ctaText: "Link",
-    ctaLink: "https://d3r0n59fu7ub44.cloudfront.net/certificates/courseCertificate/2024-07-13/course_655b4b7da18dd7f07c4cc402_user_6561fd657c17a01aab7248a5.pdf",
+    ctaLink: "https://print-ruddy.vercel.app/signup",
     content: () => {
       return (
         (<p>This blogging platform is built using a modern tech stack that includes React, TypeScript, PostgreSQL, and Hono. The frontend is designed with React and styled using Tailwind CSS, ensuring a responsive and user-friendly interface.
