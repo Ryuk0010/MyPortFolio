@@ -5,7 +5,7 @@ import { SpotlightPreview } from "@/app/components/spotlightCard";
 
 export default function Education() {
     return (
-        <div className="w-screen h-screen overflow-x-hidden overflow-y-auto bg-slate-950 text-white pt-24">
+        <div className="w-full h-full overflow-x-hidden overflow-y-auto bg-slate-950 text-white pt-24">
             <NavbarDemo/>
             <div className="flex flex-col lg:flex-row lg:space-x-8 p-4">
             <div className="flex-1 mb-4 lg:mb-0 -ml-5 -mr-5">
@@ -38,7 +38,7 @@ export default function Education() {
             </div>
             </div>
             
-            <div className="mt-5 md:mt-56">
+            <div className="mt-5 md:mt-56 flex justify-center">
                 <AppleCardsCarouselDemo/>
             </div>
             <div className="text-slate-400 ml-40 font-bold">

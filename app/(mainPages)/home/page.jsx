@@ -19,7 +19,7 @@ export default function Homepage() {
               <LampDemo/>
             </div>
             <FloatingDockDemo/>
-            <div className="flex flex-col lg:flex-row justify-evenly px-20">
+            <div className="flex flex-col lg:flex-row justify-evenly px-20 mt-24">
               <div className="w-full flex-1">
               <TypewriterEffectDemo/>
               </div>
