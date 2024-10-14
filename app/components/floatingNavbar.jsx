@@ -51,11 +51,11 @@ function Navbar({ className }) {
               description="This is a money-handling app that tracks your expenses and provides guidance using AI."
             />
             <ProductItem
-              title="Speed Infinite"
-              href="https://github.com/Ryuk0010/Car-Rental"
+              title="CPU Scheduler"
+              href="https://csa-three.vercel.app/"
               target="_blank"
               src={Project3}
-              description="Frontend of a Car Rental website where users can rent a car."
+              description="It is a tool, designed to simulate CPU scheduling algorithms"
             />
             <ProductItem
               title="View More"
