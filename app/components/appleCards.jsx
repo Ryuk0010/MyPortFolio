@@ -76,7 +76,7 @@ const data = [
     category: "Work",
     title: "Work and Contribution",
     src: card2,
-    content: <DummyContent title="Work and Contribution" description={
+    content: <DummyContent  title="Work and Contribution" description={
         <>
           I had the opportunity to teach Data Structures and Algorithms (DSA) at <BoldText text="Tech.com" />, 
           where I focused on essential concepts such as <BoldText text="trees" />, <BoldText text="graphs" />, and <BoldText text="recursion" />. In this role, I worked closely 
@@ -91,7 +91,7 @@ const data = [
     category: "Internship",
     title: "Internship Experience",
     src: card3,
-    content: <DummyContent title="Internship Experience" description="While I'm still on the process of gaining more hands-on experience
+    content: <DummyContent className="text-justify" title="Internship Experience" description="While I'm still on the process of gaining more hands-on experience
      in the industry. My journey so far includes being a Data Structures and Algorithms (DSA) instructor and working on various projects. I'm enthusiastic
       about expanding my knowledge and am actively seeking opportunities to further develop my skills and contribute to meaningful projects" />,
   },
