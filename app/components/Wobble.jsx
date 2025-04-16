@@ -4,6 +4,8 @@ import React from "react";
 import { WobbleCard } from "@/components/ui/wobble-card";
 import Photo from '@/image/batman.png';
 
+
+
 export function WobbleCardDemo() {
   return (
     (<div
